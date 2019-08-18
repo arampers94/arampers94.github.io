@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a.social-links, a:link {
+  color: white;
+}
+
+#content {
+  width: 100%;
+  background-color: #050b2b;
+}
+
+.project-block {
+  height: 100%;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: #050b2b;
+  color: white;
+}
+
+#landing-page {
+  width: 100vw;
+  margin: auto;
+  height: 100vh;
+  background-image: url("./media/oculus.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  text-shadow: black 0px 0px 20px;
+}
+
+#intro {
+  width: 100%;
+  height: 90%;
+}
+
+/* .project-1 {
+  color: white;
+}
+
+.project-2 {
+  color: white
+} */
+
+/* .project-3 {
+  background-color: aqua;
+} */
+
+.media-block#capture-gif {
+  text-align: center;
+}
+
+#block.capture-gif {
+  padding-top: 20px;
+}
+
+.media-block {
+  width: 85%;
+  height: 100%;
+  margin: 25px;
+}
+
+.media-block#robot-video {
+  width: 55%;
+  text-align: center;
+}
+
+.project-desc {
+  margin: 25px;
+  font-size: 20px;
+  /* padding-bottom: 10px; */
+}
+
+#icons {
+  justify-content: space-between;
+  size: 100px;
+  margin-top: 10px;
+}
+
+#scroll-prompt-wrapper {
+  text-align: center;
+  color: white;
+}
+
+.projects-wrapper {
+  margin: auto;
+  width: 80%;
+}
