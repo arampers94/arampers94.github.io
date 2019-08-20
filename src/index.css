@@ -14,7 +14,7 @@ code {
     monospace;
 }
 
-a.social-links, a:link {
+a.social-links, a#scroll-prompt, a:link {
   color: white;
   position: relative;
 }
@@ -40,7 +40,7 @@ a.social-links, a:link {
   width: 100vw;
   margin: auto;
   height: 100vh;
-  background-image: url("./media/oculus.jpg");
+  background-image: url("Resources/oculus.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -136,4 +136,14 @@ a.social-links, a:link {
 
 .row {
   margin: 0 !important;
+}
+
+#navbar {
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.3);
+}
+
+#navbar .navlink {
+  color: white;
+  opacity: 1;
 }
