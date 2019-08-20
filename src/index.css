@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  width: 100%;
 }
 
 code {
@@ -14,6 +16,7 @@ code {
 
 a.social-links, a:link {
   color: white;
+  position: relative;
 }
 
 #content {
@@ -24,9 +27,13 @@ a.social-links, a:link {
 .project-block {
   height: 100%;
   padding-top: 200px;
-  padding-bottom: 200px;
   background-color: #050b2b;
   color: white;
+}
+
+.media-block {
+  width: 85%;
+  margin: 25px;
 }
 
 #landing-page {
@@ -42,21 +49,24 @@ a.social-links, a:link {
 }
 
 #intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+#about-container {
   width: 100%;
-  height: 90%;
+  text-align: center;
+  padding-top: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
-/* .project-1 {
-  color: white;
+#about-container .about-col {
+  padding: 0 50px;
 }
-
-.project-2 {
-  color: white
-} */
-
-/* .project-3 {
-  background-color: aqua;
-} */
 
 .media-block#capture-gif {
   text-align: center;
@@ -64,12 +74,6 @@ a.social-links, a:link {
 
 #block.capture-gif {
   padding-top: 20px;
-}
-
-.media-block {
-  width: 85%;
-  height: 100%;
-  margin: 25px;
 }
 
 .media-block#robot-video {
@@ -80,11 +84,13 @@ a.social-links, a:link {
 .project-desc {
   margin: 25px;
   font-size: 20px;
-  /* padding-bottom: 10px; */
+}
+
+#project-1 {
+  padding-top: 0px;
 }
 
 #icons {
-  justify-content: space-between;
   size: 100px;
   margin-top: 10px;
 }
@@ -97,4 +103,37 @@ a.social-links, a:link {
 .projects-wrapper {
   margin: auto;
   width: 80%;
+}
+
+#project-section-title {
+  color: white;
+  text-align: left;
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+
+#project-section-title hr {
+  display: block;
+  color: white;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+}
+
+#about-container hr {
+  display: block;
+  color: white;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+#contact-info-section {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 200px;
+}
+
+.row {
+  margin: 0 !important;
 }
