@@ -43,7 +43,7 @@ class App extends Component {
                   Hi, my name's Amar.
                 </h1>
                 <p style={{ fontSize: "20px", fontStyle: "italic" }}>
-                  Full Stack Developer. Problem Solver. Solution Finder.
+                  Full Stack Developer. Problem Solver. Tech Enthusiast.
                 </p>
                 <div id="icons">
                   <a className="social-links" href="https://github.com/arampers94" target="_blank" rel="noopener noreferrer">
@@ -73,13 +73,13 @@ class App extends Component {
           <div id="about-container" className="project-block">
             <Row style={{ paddingBottom: "50px" }}>
               <Col>
-                <h1>You're going to want me on your team.</h1>
+                <h1>An Exceptional Team Begins With its Teammates.</h1>
                 <hr />
               </Col>
             </Row>
             <Row>
               <Col className="about-col">
-                <h5>I am...</h5>
+                <h5>Who am I?</h5>
                 <p>
                   A full stack developer, passionate about code and always
                   looking to improve my craft however I can. I enjoy learning
@@ -91,13 +91,14 @@ class App extends Component {
               <Col className="about-col">
                 <h5>Why me?</h5>
                 <p>
-                  In addition to being a motivated self-starter, adaptable, and a fast-learner,
-                  I am also friendly, have excellent communication skills, open to new
-                  ideas, and can work independently as well as collaboratively.
+                  I'm a great team player. In addition to being a motivated self-starter,
+                  adaptable, and a fast-learner, I am also friendly, have excellent
+                  communication skills, am open to new ideas, and work well independently
+                  as well as collaboratively.
                  </p>
               </Col>
               <Col className="about-col">
-                <h5>I'm looking for...</h5>
+                <h5>What am I looking for?</h5>
                 <p>
                   The opportunity to apply my problem-solving and web dev skills
                   to solve some of the industry's toughest challenges in order to
@@ -128,7 +129,7 @@ class App extends Component {
                   <div className="project-desc">
                     <h1>Context</h1>
                     <p>
-                      A personal project I built to demonstrate my skill and comfort working
+                      A personal project I built to demonstrate my skill and ability to work
                       across the full stack from front-end design to back-end data management.
                       It works the same way you would expect a typical blog site to - users have
                       the ability to sign up, create, rate, and comment on posts.
@@ -231,7 +232,7 @@ class App extends Component {
             <Row>
               <Col>
                 <h1>Sound good? Let's get to work.</h1>
-                <p>Feel free to reach out to me via email or LinkedIn</p>
+                <p>Connect with me on LinkedIn or send an email.</p>
                 <a className="social-links" href="https://www.linkedin.com/in/amar-rampersaud/" target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-linkedin fa-2x"></i>
                 </a>{' '}
