@@ -37,6 +37,10 @@ yarn start
 
 * **Amar Rampersaud** - *Initial work*
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ## Acknowledgements
 
 * [ABW Technologies](http://www.abwtechnologies.com/) - inspired some designs
